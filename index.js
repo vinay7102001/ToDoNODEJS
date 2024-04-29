@@ -29,7 +29,7 @@ app.use(taskRoutes)
 connect()
 
 app.get('/', (req, res) => {
-  res.send('hello')
+  res.send('working')
 })
 
 app.listen(process.env.PORT, () => {
